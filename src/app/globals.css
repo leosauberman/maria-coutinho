@@ -8,8 +8,11 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #A3B18A; /* #ff7f00 */;
+  --color-secondary: #F2D0C4; /* #c9bd5f; */
+  --color-accent: #E4B363;
+  --color-neutral-light: #F9F8F4; /* #eae5c3 */;
+  --color-neutral-dark: #2D3142 /* #eae5c3; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +23,10 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-neutral-light text-neutral-dark;
+  font-family: var(--font-inter);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-playfair);
 }
