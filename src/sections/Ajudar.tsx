@@ -6,33 +6,34 @@ const Ajudar = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Como posso te ajudar</h2>
         
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4 text-primary">Acolhimento Personalizado</h3>
-            <p className="text-gray-700">
-              Cada pessoa é única, com sua própria história e necessidades. 
-              Meu trabalho é criar um espaço seguro e acolhedor onde você possa 
-              se expressar livremente, sem julgamentos.
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="flex flex-col gap-8 max-w-3xl mx-auto">
+          <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-4 text-primary">Abordagem Integrativa</h3>
             <p className="text-gray-700">
-              Utilizo diferentes técnicas terapêuticas adaptadas ao seu perfil e objetivos.
-              Trabalho com uma visão holística que considera aspectos emocionais, 
-              comportamentais e relacionais.
+              Em meu trabalho clínico, acolho diferentes formas de sofrimento psíquico que podem surgir ao longo da vida. Entre as demandas mais frequentes estão quadros de ansiedade, depressão, experiências traumáticas, perdas e separações, dificuldades com a autoestima, transtornos alimentares, conflitos com o corpo, diagnóstico de TOC, esquizofrenia, questões relacionadas à sexualidade, desafios no ambiente de trabalho, Burnout e sentimentos constantes de autocobrança.
             </p>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4 text-primary">Desenvolvimento Contínuo</h3>
+          <div className="bg-white p-8 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-4 text-primary">Acolhimento Personalizado</h3>
             <p className="text-gray-700">
-              O processo terapêutico é uma jornada de autoconhecimento e crescimento.
-              Juntos, trabalharemos para desenvolver ferramentas e estratégias que 
-              promovam seu bem-estar e qualidade de vida.
+              Cada história é única, e por isso, cada escuta também precisa ser singular. A decisão de buscar um espaço terapêutico pode surgir quando o sofrimento começa a ocupar demais — quando o que antes era possível sustentar sozinho, passa a demandar um espaço de elaboração e cuidado.
             </p>
           </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-4 text-primary">A Psicanálise</h3>
+            <p className="text-gray-700">
+              A psicanálise oferece essa possibilidade: um espaço de fala, de escuta e de construção. Através da palavra, abrimos caminho para novos sentidos, para o reconhecimento daquilo que nos atravessa e para a chance de escolher viver com mais autenticidade por caminhos mais dignos de bem-estar e saúde.
+            </p>
+          </div>
+
+          <blockquote className="bg-white p-8 rounded-lg shadow-md text-center">
+            <p className="text-xl italic text-gray-700">
+              &ldquo;Aquilo que não se elabora, repete-se.&rdquo;
+            </p>
+            <cite className="block mt-4 text-gray-600">— Sigmund Freud</cite>
+          </blockquote>
         </div>
       </div>
     </section>
