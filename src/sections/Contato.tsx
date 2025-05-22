@@ -45,6 +45,16 @@ const Contato = () => {
               />
             </div>
             <div>
+              <input
+                id="phone"
+                type="phone"
+                name="phone"
+                placeholder="Celular"
+                required
+                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+              />
+            </div>
+            <div>
               <textarea
                 id="message"
                 name="message"

@@ -6,7 +6,7 @@ const Ajudar = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Como posso te ajudar</h2>
         
-        <div className="flex flex-col gap-8 max-w-3xl mx-auto">
+        <div className="flex flex-col md:flex-row gap-8 mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-4 text-primary">Abordagem Integrativa</h3>
             <p className="text-gray-700">
@@ -28,12 +28,12 @@ const Ajudar = () => {
             </p>
           </div>
 
-          <blockquote className="bg-white p-8 rounded-lg shadow-md text-center">
+          {/* <blockquote className="bg-white p-8 rounded-lg shadow-md text-center">
             <p className="text-xl italic text-gray-700">
               &ldquo;Aquilo que não se elabora, repete-se.&rdquo;
             </p>
             <cite className="block mt-4 text-gray-600">— Sigmund Freud</cite>
-          </blockquote>
+          </blockquote> */}
         </div>
       </div>
     </section>

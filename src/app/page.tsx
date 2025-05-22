@@ -12,8 +12,8 @@ export default function HomePage() {
     <>
       <Hero />
       <Sobre />
-      <Ajudar />
       <Atendimento />
+      <Ajudar />
       <FAQ />
       <Location />
       <Contato />

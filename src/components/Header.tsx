@@ -24,8 +24,8 @@ const Header: React.FC = () => {
 
           <div className="hidden md:flex gap-6">
             <Link href="#sobre" className="hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full">Sobre</Link>
-            <Link href="#ajuda" className="hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full">Como posso ajudar</Link>
             <Link href="#atendimento" className="hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full">Atendimento</Link>
+            <Link href="#ajuda" className="hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full">Como posso ajudar</Link>
             <Link href="#faq" className="hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full">Perguntas Frequentes</Link>
             <Link href="#localizacao" className="hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full">Localização</Link>
             <Link href="#contato" className="hover:text-primary relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full">Contato</Link>
@@ -40,8 +40,8 @@ const Header: React.FC = () => {
         >
           <div className="flex flex-col gap-4 py-4">
             <Link href="#sobre" className="hover:text-primary transform transition-transform hover:translate-x-2" onClick={() => setIsMenuOpen(false)}>Sobre</Link>
-            <Link href="#ajuda" className="hover:text-primary transform transition-transform hover:translate-x-2" onClick={() => setIsMenuOpen(false)}>Como posso ajudar</Link>
             <Link href="#atendimento" className="hover:text-primary transform transition-transform hover:translate-x-2" onClick={() => setIsMenuOpen(false)}>Atendimento</Link>
+            <Link href="#ajuda" className="hover:text-primary transform transition-transform hover:translate-x-2" onClick={() => setIsMenuOpen(false)}>Como posso ajudar</Link>
             <Link href="#faq" className="hover:text-primary transform transition-transform hover:translate-x-2" onClick={() => setIsMenuOpen(false)}>Perguntas Frequentes</Link>
             <Link href="#localizacao" className="hover:text-primary transform transition-transform hover:translate-x-2" onClick={() => setIsMenuOpen(false)}>Localização</Link>
             <Link href="#contato" className="hover:text-primary transform transition-transform hover:translate-x-2" onClick={() => setIsMenuOpen(false)}>Contato</Link>

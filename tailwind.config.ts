@@ -7,6 +7,9 @@ const config: Config = {
       backgroundImage: {
         'maria-gradient': 'linear-gradient(to right, #dfb78c, #f0e7d1, #e6e3e5)',
       },
+      borderRadius: {
+        'blob': '63% 37% 54% 46% / 55% 48% 52% 45%'
+      }
     },
   },
   plugins: [],
